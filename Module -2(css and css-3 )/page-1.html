@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .grid {
+            height: auto;
+            width: auto;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto 150px;
+            grid-template-rows: 270px 270px 270px 270px;
+            gap: 13px;
+            background-color: black;
+        }
+
+        .grid>div {
+            padding: 20px;
+            color: white;
+        }
+
+        .grid-sub1 {
+            grid-column: span 4;
+            background-image: url(./images2/Lake-vs-pond-Lake-Chaminwood-Ronald-Kapala.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .grid-sub2 {
+            grid-column: span 2;
+            background-image: url(./images2/man-hiking-adventure-silhouette-blurred-background-ai-generated-photo.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .grid-sub3 {
+            grid-row: span 4;
+            text-align: center;
+            font-size: 13px;
+
+        }
+
+        .grid-sub4 {
+            background-image: url(./images2/360_F_615496890_W34yB8VDE6n5pehb5QCt1ek5oEvRo9qA.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .grid-sub5 {
+            grid-column: span 4;
+            background-image: url(./images2/nature-3082832_1280.jpg);
+            background-size: cover;
+            background-position: cover;
+        }
+
+        .grid-sub6 {
+            background-image: url(./images2/image-1683286564-4655\ \(1\).jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .grid-sub7 {
+            grid-column: span 3;
+            background-image: url(./images2/thunderstorm-3625405_1280.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .grid-sub8 {
+            grid-column: span 3;
+            background-image: url(./images2/pexels-achim-bongard-87217-352096.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .child-2 {
+            margin-top: 30px;
+            font-size: 25px;
+
+        }
+
+        .child-3 {
+            margin-top: 20px;
+        }
+
+        li {
+            list-style-type: none;
+            margin-top: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+
+
+        }
+
+        i {
+            margin-top: 20px;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        h4{
+            font-size: 30px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Module 2  CSS and CSS 3</h1>
+    <h4>. Create image gallery using display grid with responsive</h4>
+    <div class="grid">
+        <div class="grid-sub1"></div>
+        <div class="grid-sub2"></div>
+        <div class="grid-sub3">
+            <div class="child-1"></div>
+            <div class="child-2">SHUTTER</div>
+            <div class="child-3">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PHOTO</a></li>
+                    <li><a href="">BIO</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="child-4">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="grid-sub4"></div>
+        <div class="grid-sub5"></div>
+        <div class="grid-sub6"></div>
+        <div class="grid-sub7"></div>
+        <div class="grid-sub8"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } 
+        .box{
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .one{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .header{
+         height: 30px;
+         width: 24%;
+         background-color: black;
+         color: white;
+         text-align: center;
+         font-size: 30px;
+        }
+        .menu{
+            height: 30px;
+            width: 46%;
+            background-color: red;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+        .two{
+            display: flex;
+            flex-wrap: wrap;        }
+        .hero{
+            height: 400px;
+            width: 70%;
+            background-color: rgb(28, 105, 227);
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .three{
+           display: flex;
+        }
+        .main{
+            height: 150px;
+            width: 35%;
+            background-color: darkblue;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .space{
+            height: 150px;
+            width: 19%;
+            background-color: white;
+        }
+        .img{
+            height: 150px;
+            width: 70%;
+            
+        }
+        .image{
+            height: 75px;
+            width: 47%;
+            background-color: rgb(139, 234, 229);
+            color: black;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .extra{
+            height: 75px;
+            width: 47%;
+            background-color: rgb(3, 150, 143);
+            color: black;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner{
+            height: 75px;
+            width: 70%;
+            background-color: rgb(255, 213, 0);
+            color: black;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media only screen and(max-width:600px) {
+            .box{
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1>deskstop</h1>
+    
+    <div class="box">
+        <div class="one">
+           <div class="header">HEADER</div>
+           <div class="menu">MENU</div>
+        </div>
+        <div class="two">
+            <div class="hero">HERO</div>
+        </div>
+        <div class="three">
+            <div class="main">MAIN</div>
+            <div class="space"></div>
+            <div class="img">
+            <div class="image">IMAGE</div>
+            <div class="extra">EXTRA</div>
+            </div>
+        </div>
+        <div class="four">
+            <div class="banner">BANNER</div>
+        </div>
+    </div>
+</body>
+</html>
